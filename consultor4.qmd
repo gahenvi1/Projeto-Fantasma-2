@@ -1,0 +1,54 @@
+---
+# Nome do arquivo PDF gerado na pasta resultado
+output-file: "Nome do alocado - análise 7 e 8"
+---
+
+```{r setup}
+source("rdocs/source/consultor4.R")
+```
+
+# Objetivo
+
+Esse template foi criado para o alocado conseguir observar como ficaria sua análise o arquivo principal. É daqui que o gerente de projetos irá copiar a análise e inserir no documento principal que gerará o relatório estatístico.
+
+# Análises
+
+## Análise 7
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non scelerisque urna, vitae cursus massa. Donec vehicula, mauris sit amet eleifend accumsan, purus libero cursus mi, nec commodo nulla est non enim. Nam a nisi vehicula, hendrerit metus ut, gravida odio. Integer sit amet semper enim. Morbi pulvinar purus a metus lobortis, sit amet fermentum justo fermentum. Cras elementum eros vel ex aliquam, id tempus lectus vehicula. Sed varius, felis at vehicula facilisis, magna ligula dignissim leo, at volutpat enim velit sed augue. Suspendisse potenti. Quisque vitae sagittis sem.
+
+Pellentesque vel libero sapien. Aliquam eget nulla eu felis consequat auctor. Donec accumsan neque vel felis porttitor, a malesuada magna interdum. Fusce aliquet, justo at scelerisque laoreet, ante enim lacinia dui, id ultricies sapien nulla id est. Cras lacinia bibendum tortor. Proin vitae elit ut ipsum interdum cursus sed a orci. Nam sed urna euismod, ultricies arcu ut, fermentum orci.
+
+```{r}
+#| label: fig-grafico
+#| fig-cap: "Gráfico qualquer ai"
+
+
+
+# Criar um gráfico de dispersão
+ggplot(mpg, aes(x = cty, y = hwy)) +
+  geom_point(colour = "#A11D21", size = 3) +
+  labs(
+    x = "Consumo em Cidade (milhas/galão)",
+    y = "Consumo em Rodovias (milhas/galão)"
+  ) +
+  theme_estat()
+```
+
+```{=latex}
+\begin{table}[H] 
+\caption{Frequências da variável grupos de mulheres por partos normais}
+\centering
+\begin{tabular}{l|rr}
+\hline
+\multicolumn{1}{l|}{\textbf{ Grupos de mulheres}} & \multicolumn{1}{r}{\textbf{Frequência}} & \multicolumn{1}{l}{\textbf{Porcentagem}} \\ \hline
+Nulíparas    & 30874  & 24,23\% \\
+Multíparas    & 96539  & 75,77\% \\ \hline
+\textbf{Total} & 127413 & 100\%   \\ \hline 
+\end{tabular}
+\label{tabela2_febap}
+\end{table}
+```
+Evidenciado pelo @fig-grafico, tem-se que ipsum dolor sit amet, consectetur adipiscing elit. Nullam non scelerisque urna, vitae cursus massa. Donec vehicula, mauris sit amet eleifend accumsan, purus libero cursus mi, nec commodo nulla est non enim. Nam a nisi vehicula, hendrerit metus ut, gravida odio. Integer sit amet semper enim. Morbi pulvinar purus a metus lobortis, sit amet fermentum justo fermentum. Cras elementum eros vel ex aliquam, id tempus lectus vehicula. Sed varius, felis at vehicula facilisis, magna ligula dignissim leo, at volutpat enim velit sed augue. Suspendisse potenti. Quisque vitae sagittis sem.
+
+Ademais pela $\ref{tabela2_febap}$, observa-se ipsum dolor sit amet, consectetur adipiscing elit. Nullam non scelerisque urna, vitae cursus massa. Donec vehicula, mauris sit amet eleifend accumsan, purus libero cursus mi, nec commodo nulla est non enim. Nam a nisi vehicula, hendrerit metus ut, gravida odio. Integer sit amet semper enim. Morbi pulvinar purus a metus lobortis, sit amet fermentum justo fermentum. Cras elementum eros vel ex aliquam, id tempus lectus vehicula. Sed varius, felis at vehicula facilisis, magna ligula dignissim leo, at volutpat enim velit sed augue. Suspendisse potenti. Quisque vitae sagittis sem.

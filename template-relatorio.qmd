@@ -1,0 +1,14 @@
+---
+title: "Modelo Projeto - Quarto"
+
+# Nome do documento PDF gerado
+output-file: titulo do projeto
+---
+
+# Introdução
+
+# Referencial Teórico
+
+# Análises
+
+# Conclusões

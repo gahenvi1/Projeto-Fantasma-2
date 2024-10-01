@@ -1,0 +1,18 @@
+---
+# Nome do arquivo PDF gerado na pasta resultado
+output-file: "Nome do alocado - análise 3 e 4"
+---
+
+```{r setup}
+source("rdocs/source/consultor2.R")
+```
+
+# Objetivo
+
+Esse template foi criado para o alocado conseguir observar como ficaria sua análise o arquivo principal. É daqui que o gerente de projetos irá copiar a análise e inserir no documento principal que gerará o relatório estatístico.
+
+# Análises
+
+## Análise 3
+
+## Análise 4
